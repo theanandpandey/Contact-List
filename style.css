@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+
+body {
+  background-color: lightgrey;
+  font-family: "Roboto Slab", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* First page */
+
+/* first */
+.contact-list {
+  width: 250px;
+  height: 490px;
+  margin-top: 50px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.search-box{
+  height: 25px;
+  width: 80%;
+  padding: px;
+  background-color: #E5E5E5;
+  margin-left: 15px;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+#search-icon {
+  height: 12px;
+  margin-bottom: 22px;
+  margin-left: 10px;
+}
+
+#search-box {
+  border: none;
+  width: 120px;
+  background-color: #E5E5E5;
+  position: relative;
+  left: 2px;
+  top: -22px
+}
+
+#microphn-icon {
+  height: 40px;
+  position: relative;
+  bottom: 5px;
+  left: 15px;
+}
+
+.three-dot img{
+  height: 20px;
+  position: relative;
+  left: 225px;
+  bottom: 22px;
+}
+
+#line1 {
+  height: 3.5px;
+  background-color: #E5E5E5;
+  border: none;
+  margin-top: -2px;
+}
+
+/* second */
+.profile {
+  height: 30px;
+  width: 100%;
+}
+
+.profile span {
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+.profile i {
+  color: #000000;
+  margin-left: 140px;
+}
+
+#line2 {
+  height: 3px;
+  background-color: #E5E5E5;
+  border: none; 
+  margin-top: -1px;
+}
+
+.fav {
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+#add-icon {
+  height: 35px;
+  position: absolute;
+  bottom: 80px; /* Adjust as needed */
+  right: 20px; 
+  cursor: pointer;
+}
+/* first page end */
+
+
+
+
+
+
+
+
+/* second page */
+
+/* first */
+.new-contact {
+  width: 250px;
+  height: 490px;
+  margin-left: 20px;
+  margin-top: 50px;
+  background-color: #ffffff;
+}
+
+.arrow {
+  margin-top: 3px;
+  color: #5ef65a;
+}
+
+.f-head {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.f-head span {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+#head-save {
+  color: #5ef65a;
+  background: none;
+  border: none;
+  font-weight: bold;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+/* second */
+.contact-pic {
+  position: relative;
+  margin-top: 3px;
+  height: 150px;
+  width: 100%;
+  background-color: #9dc180;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+}
+
+#v {
+  height: 50px;
+  display: block;
+  margin: auto;
+  margin-bottom: 5px;
+  padding-top: 15px;
+}
+
+#v2 {
+  height: 50px;
+  display: block;
+  margin: auto;
+}
+
+#img-icon {
+  height: 18px;
+  position: absolute;
+  right: 20px;
+  bottom: 40px;
+  color: white;
+  font-size: larger;
+  cursor: pointer;
+}
+
+#img-input {
+  display: none;
+}
+
+/* third */
+.sim {
+  height: 40px;
+  width: 85%;
+  box-shadow: 3px 6px 6px 0px #43434340;
+  border-radius: 6px;
+  margin: auto;
+  position: relative;
+  top: -20px;
+  background-color: #ffffff;
+}
+
+#sim-icon {
+  height: 20px;
+  padding: 10px;
+  font-size: larger;
+}
+
+.sim div {
+  display: inline-block;
+  position: absolute;
+  top: 1px;
+  left: 50px;
+  font-size: medium;
+  font-weight: normal;
+}
+
+#sim-list {
+  display: inline-block;
+  position: absolute;
+  top: 22px;
+  left: 47px;
+  width: 150px;
+  border: none;
+}
+
+/* fourth */
+.details {
+  width: 85%;
+  height: 170px;
+  box-shadow: 0px 0px 6px 0px #00000040;
+  border-radius: 15px;
+  margin: auto;
+  display: flex;
+}
+
+.form-icon {
+  height: 100%;
+  width: 40px;
+}
+
+#v1-g {
+  height: 8px;
+  margin-left: 16px;
+  margin-bottom: -3px;
+  margin-top: 15px;
+}
+
+#v2-g {
+  height: 8px;
+  margin-left: 13px;
+  margin-bottom: 30px;
+}
+
+#call-icon {
+  height: 18px;
+  margin-left: 13px;
+  margin-top: -10px;
+}
+
+#msg-icon {
+  height: 20px;
+  margin-left: 13px;
+  margin-top: 20px;
+}
+
+.contact-form {
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.border-rmv {
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-width: 1.2px;
+  border-color: #9dc180;
+  font-size: 12px;
+}
+
+.last-line {
+  color: #9dc180;
+  text-align: center;
+  margin-top: 10px;
+}
+/* second page end */
+
+
+
+
+/* js css  */
+.bg-img {
+  width: 100%;
+  height: 100%;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.contact-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-left: 50px;
+}
+
+.contact-info strong {
+  font-size: 12px;
+}
+
+.contact-info span {
+  display: none;
+}

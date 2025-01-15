@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <!-- Contact list -->
+    <div class="contact-list">
+        <div class="search-box">    
+            <img src="/Assests/search icon.png" id="search-icon">
+            <input type="text" placeholder="Search contacts" id="search-box">
+            <img src="/Assests/bx_bx-microphone-removebg-preview.png" id="microphn-icon">
+        </div>
+
+        <div class="three-dot">
+            <img src="/Assests/eva_more-vertical-fill.png" alt="">
+        </div>
+        <hr id="line1">
+
+        <div class="profile">
+            <span>My profile</span>
+            <i class="fa-solid fa-chevron-right arrow"></i>
+        </div>
+        <hr id="line2">
+
+        <div class="fav">
+            <span>My favourites</span>
+        </div>
+        <div class="contact-numbers">
+        </div>
+
+        <div>
+            <img src="/Assests/person_add.png" id="add-icon">
+        </div>
+    </div>
+    </div>
+
+
+
+
+    <!-- New contact -->
+    <form action="">
+        <div class="new-contact">
+            <div class="f-head">
+                <i class="fa-solid fa-chevron-left arrow"></i>
+                <span id="head-h">Create new contact</span>
+                <button type="submit" id="head-save">Save</button>
+            </div>
+
+            <div class="contact-pic">
+                <div class="img">
+                    <img src="/Assests/Vector.png" id="v">
+                    <img src="/Assests/Vector 2.png" id="v2">
+                </div>
+                <label for="img-input">
+                    <img src="/Assests/Group.png" alt="" id="img-icon">
+                </label>
+                <input type="file" accept="image/jpeg, image/png. image/jpg" id="img-input">
+            </div>
+
+            <div class="sim">
+                <img src="/Assests/Group 2.png" id="sim-icon">
+                <div>saving to</div>
+                <select name="" id="sim-list">
+                    <option value="sim1">Sim1</option>
+                    <option value="sim2">Sim2</option>
+                </select>
+            </div>
+
+            <div class="details">
+                <div class="form-icon">
+                    <img src="/Assests/Vector green.png" id="v1-g">
+                    <img src="/Assests/Vector 2 green.png" id="v2-g">
+                    <img src="/Assests/call.png" id="call-icon">
+                    <img src="/Assests/msg.png" id="msg-icon">
+                </div>
+                <div class="contact-form">
+                    <input type="text" placeholder="Enter your First name" class="border-rmv" id="fname" required>
+                    <input type="text" placeholder="Last name" class="border-rmv" id="lname" required>
+                    <input type="number" placeholder="Phone" class="border-rmv" id="pnumber" required>
+                    <select name="" id="" class="border-rmv" required>
+                        <option value="Mobile">Mobile</option>
+                        <option value="Landline">Landline</option>
+                    </select>
+                    <input type="email" placeholder="Email" class="border-rmv" id="email" required>
+                    <select name="" id="" class="border-rmv">
+                        <option value="Home">Home</option>
+                        <option value="office">Office</option>
+                    </select>
+                </div>
+            </div>
+            <div class="last-line">MORE FIELDS</div>
+        </div>
+    </form>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
